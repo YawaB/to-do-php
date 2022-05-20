@@ -40,9 +40,9 @@ if (isset($_POST["new-todo-submit"])) {
                         echo '<div class="bg-[url('.'images/to-do.svg'.')] bg-contain flex flex-col h-1/5">
                         <div class="border rounded bg-pink-50/[0.9] shadow mx-auto p-4 flex w-4/5 justify-evenly items-center">
                     <p class="w-2/3 ' . $line . '">' . $todo['title'] . '</p>
-                    <a href="' . $page . '-done.php?id=' . $todo['id'] . '"><input type="checkbox" disabled ' . $done . ' ></a>
-                    <a href="delete.php?id=' . $todo['id'] . '"><i class="fa-solid fa-trash-can text-pink-600"></i></a>
-                </div> </div>';;
+                    <a href="'. $page.'-done.php?id=' . $todo['id'] . '"><input type="checkbox" disabled '. $done .'></a>
+                    <a href="delete.php?id='. $todo['id'].'"><i class="fa-solid fa-trash-can text-pink-600"></i></a>
+                </div> </div>';
                     }
                 } else {
                     echo '<div class="flex flex-col justify-center items-center h-full">
