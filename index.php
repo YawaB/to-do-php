@@ -17,6 +17,12 @@ if (isset($_POST["new-todo-submit"])) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- ICONES -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="images/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="images/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>My To Do</title>
 </head>
 
@@ -60,7 +66,14 @@ if (isset($_POST["new-todo-submit"])) {
             </div>
 
         </div>
+        <footer class="w-full h-10 bg-slate-100 flex flex-col justify-center relative bottom-0">
+            <p class="text-pink-600 text-center">© 2022 Brinda_vi - All Rights are Reserved.</p>
+
     </div>
+    </div>
+    </footer>
+    </div>
+
 </body>
 
 </html>
