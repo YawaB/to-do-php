@@ -45,7 +45,7 @@ if (isset($_POST["new-todo-submit"])) {
                      <code class=" italic text-sm text-gray-400">Created:'.$date.'</code>
                      </div>
                     <a href="' . $page . '-done.php?id=' . $todo['id'] . '"><i class="'. $done .'"></i></a>
-                    <a href="modify.php"><i class="fa-solid fa-pen text-pink-600"></i></a>
+                    <a href="modify.php?id=' . $todo['id'] . '"><i class="fa-solid fa-pen text-pink-600"></i></a>
                     <a href="delete.php?id=' . $todo['id'] . '"><i class="fa-solid fa-trash-can text-pink-600"></i></a>
                     
                 </div>';
